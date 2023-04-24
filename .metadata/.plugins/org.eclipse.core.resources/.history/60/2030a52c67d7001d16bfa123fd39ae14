@@ -1,0 +1,5 @@
+package com.ust.ioc;
+
+public interface DBConnection  implements Connection {
+   c
+}
