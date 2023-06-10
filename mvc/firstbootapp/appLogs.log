@@ -1,0 +1,32 @@
+2023-04-24 12:01:58.623  INFO 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : Starting FirstbootappApplication using Java 16.0.2 on ae67226a506d5df with PID 13212 (D:\module3\mvc\firstbootapp\target\classes started by Administrator in D:\module3\mvc\firstbootapp)
+2023-04-24 12:01:58.624  INFO 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-24 12:01:58.871  INFO 13212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-04-24 12:01:58.875  INFO 13212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24 12:01:58.876  INFO 13212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-24 12:01:58.903  INFO 13212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24 12:01:58.904  INFO 13212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 277 ms
+2023-04-24 12:01:59.029  INFO 13212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24 12:01:59.047  INFO 13212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-04-24 12:01:59.053  INFO 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : Started FirstbootappApplication in 0.489 seconds (JVM running for 572.4)
+2023-04-24 12:01:59.056  INFO 13212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24 12:01:59.057  INFO 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : Application started successfully
+2023-04-24 12:01:59.057 ERROR 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : Application started successfully
+2023-04-24 12:01:59.057  WARN 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : Application started successfully
+2023-04-24 12:04:42.699  INFO 13212 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24 12:04:42.709  INFO 13212 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-24 12:04:42.801  INFO 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : Starting FirstbootappApplication using Java 16.0.2 on ae67226a506d5df with PID 13212 (D:\module3\mvc\firstbootapp\target\classes started by Administrator in D:\module3\mvc\firstbootapp)
+2023-04-24 12:04:42.802  INFO 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : No active profile set, falling back to 1 default profile: "default"
+2023-04-24 12:04:43.008  INFO 13212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-04-24 12:04:43.010  INFO 13212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-24 12:04:43.011  INFO 13212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.73]
+2023-04-24 12:04:43.037  INFO 13212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-24 12:04:43.037  INFO 13212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 233 ms
+2023-04-24 12:04:43.132  INFO 13212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-04-24 12:04:43.146  INFO 13212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-04-24 12:04:43.151  INFO 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : Started FirstbootappApplication in 0.383 seconds (JVM running for 736.498)
+2023-04-24 12:04:43.154  INFO 13212 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-04-24 12:04:43.156  INFO 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : Application started successfully
+2023-04-24 12:04:43.157 ERROR 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : Application started successfully
+2023-04-24 12:04:43.157  WARN 13212 --- [restartedMain] com.ust.webapp.FirstbootappApplication   : Application started successfully
+2023-04-24 12:13:27.926  INFO 13212 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-04-24 12:13:27.935  INFO 13212 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]

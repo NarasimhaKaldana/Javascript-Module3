@@ -20,20 +20,19 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ust.rest.resource.Product;
 import com.ust.rest.services.ProductService;
 
-import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
+
 
 @RestController
 @RequestMapping("/product/api.2.0")
-@Api(value="Customer Service API 2.0" ,
-description= "Rest endpoints for product Api")
+//@Api(value="Customer Service API 2.0" ,
+//description= "Rest endpoints for product Api")
 public class ProductResource {
 	
 	@Autowired
 	ProductService service;
 	
 	@GetMapping
-	@ApiOperation(value= "accepts product id and returns product entity")
+	////@ApiOperation(value= "accepts product id and returns product entity")
 	@RequestMapping("/retrieve/{productId}")
 	public Product fetchProduct(@PathVariable long  productId) {
 	
@@ -43,7 +42,7 @@ public class ProductResource {
 
 	
 	@GetMapping
-	@ApiOperation(value= "accepts product id and returns product entity")
+	//@ApiOperation(value= "accepts product id and returns product entity")
 	@RequestMapping("/retrieve/all")
 	public List<Product> fetchproducts() {
 	
@@ -51,7 +50,7 @@ public class ProductResource {
 }
 	
 	@PostMapping
-	@ApiOperation(value= "accepts product id and returns product entity")
+	//@ApiOperation(value= "accepts product id and returns product entity")
 	@RequestMapping(value="/create",consumes = MediaType.APPLICATION_JSON_VALUE,produces = MediaType.APPLICATION_JSON_VALUE )
 	public ResponseEntity<?> addProduct(@RequestBody Product product ){
 		
@@ -85,14 +84,14 @@ public class ProductResource {
 	}
 	
 	@PutMapping
-	@ApiOperation(value= "accepts product id and returns product entity")
+	//@ApiOperation(value= "accepts product id and returns product entity")
 	@RequestMapping(value="/update",consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
 	public Product updateProduct(@RequestBody Product product) {
 		return service.updateProduct(product);
 	}
 	
 	@DeleteMapping
-	@ApiOperation(value= "accepts product id and returns product entity")
+	//@ApiOperation(value= "accepts product id and returns product entity")
 	@RequestMapping(value="/delete/{productId}")
 	public void deleteProduct(@PathVariable long productId) {
 		service.deleteProduct(productId);

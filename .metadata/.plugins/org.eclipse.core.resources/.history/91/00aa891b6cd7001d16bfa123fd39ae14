@@ -1,9 +1,0 @@
-package com.ust.ioc;
-
-public class DBConnection implements Connection {
-	public Connection getConnection() {
-		return new DBConnection();
-		
-	}
-
-}
